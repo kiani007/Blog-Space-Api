@@ -1,0 +1,127 @@
+:root {
+    /* position: relative;
+   */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Inter', 'Avenir', Helvetica, Arial, sans-serif;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #bcbcbc;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* -webkit-text-size-adjust: 100%; */
+}
+
+.root-0-1-1 {
+    display: none;
+}
+
+body {
+    /* position: absolute; */
+    margin: auto;
+    max-width: 390px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #242424;
+    border-radius: 15px;
+    max-height: 720px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 10px #545454;
+}
+
+nav {
+    height: 200px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    color: #242424;
+    font-weight: 700;
+    border-radius: 15px 15px 0 0;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    text-shadow: 2px 2px 20px #85b6b2;
+}
+
+div {
+    border-radius: 4px;
+    margin: 1.2rem;
+    padding: 1rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    background-color: #2e2d2d;
+}
+
+div::-webkit-scrollbar {
+    display: none;
+}
+
+h3 {
+    text-transform: capitalize;
+    line-height: 30px;
+    letter-spacing: .7px;
+}
+
+p {
+    line-height: 22px;
+    letter-spacing: .8px;
+    font-size: 1em;
+}
+
+form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 1.2rem 0 0 1.2rem;
+}
+
+#title {
+    border: none;
+    padding: .8rem;
+    margin-bottom: .5rem;
+    border-radius: 4px;
+    width: 320px;
+    font-size: 1rem;
+}
+
+#description {
+    resize: none;
+    border: none;
+    border-radius: 4px;
+    width: 320px;
+    font-size: 1rem;
+    padding: .8rem;
+    height: 130px;
+}
+
+label {
+    margin: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #bcbcbc;
+}
+
+hr {
+    text-align: center;
+    width: 50%;
+    height: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: whitesmoke;
+}
+
+button {
+    margin-top: 1rem;
+    width: fit-content;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    padding: .4rem 1.4rem;
+    font-weight: 500;
+}
